@@ -9,6 +9,7 @@
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "init": "^0.1.2",
+    "install": "^0.13.0",
     "nodemon": "^3.1.14",
     "progress-estimator": "^0.3.1",
     "youtube-dl-exec": "^2.5.8",

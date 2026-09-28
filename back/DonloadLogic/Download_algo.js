@@ -37,7 +37,7 @@ async function getInfo(url) {
             preferFreeFormats: true,
             cookies: './yt_cookies.txt',
             proxy: proxyUrl
-            
+
         });
 
         const cleanFormats = summarizeFormats(info.formats);

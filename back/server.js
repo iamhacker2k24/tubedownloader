@@ -7,10 +7,7 @@ const app = express();
 app.use(express.json())
 
 
-app.use(cors({
-    origin: "https://atozdownloader.vercel.app",//only allowed origin
-    methods: 'get'
-}))
+app.use(cors())
 
 
 //creating cookies for youtube 
